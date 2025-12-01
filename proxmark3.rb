@@ -20,7 +20,7 @@ class Proxmark3 < Formula
   depends_on "python@3.14" => :build
   depends_on "gd" => :recommended
   depends_on "openssl" => :recommended
-  depends_on "rfidresearchgroup/proxmark3/arm-none-eabi-gcc" => :build
+  depends_on "galenguyer/proxmark3/arm-none-eabi-gcc" => :build
 
   option "with-blueshark", "Enable Blueshark (BT Addon) support"
   option "with-smartcard", "Enable Smartcard support"
